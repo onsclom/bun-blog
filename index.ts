@@ -21,7 +21,7 @@ const nav = [
   },
   {
     title: "GitHub",
-    href: "",
+    href: "https://github.com/onsclom/bun-blog",
   },
 ]
 
