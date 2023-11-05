@@ -119,13 +119,9 @@ await fs.writeFile(
 
 postData.forEach(async ({ data, renderedContent, slug }) => {
   await fs.mkdir(`${OUTPUT_DIR}/blog/${slug}`)
+  const postContent = `<h1>${data.title}</h1>\n${renderedContent}`
   await fs.writeFile(
     `${OUTPUT_DIR}/blog/${slug}/index.html`,
-    renderPage(
-      `/blog/${slug}`,
-      data.title,
-      `<h1>${data.title}</h1>
-  ${renderedContent}`
-    )
+    renderPage(`/blog/${slug}`, data.title, postContent)
   )
 })
