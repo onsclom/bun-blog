@@ -27,9 +27,13 @@ introduction to the code for more experienced coders.
 
 ## TODO
 
-- share steps to deploy on vercel
 - add asset workflow
 - add RSS feed generation
+- rewrite readme
+- write documentation
+  - for people who want a no-code bear blog like experience
+  - for people who want to do local dev with bun
+- figure out local dev server solution
 
 ## idea brainstorming
 
