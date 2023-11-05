@@ -1,8 +1,10 @@
 # 🍞 Bun Blog
 
-A simple and extendable static site generator built with [Bun](https://bun.sh/).
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonsclom%2Fbun-blog&project-name=my-bun-blog&repository-name=my-bun-blog&demo-title=Bun%20Blog&demo-description=A%20simple%20and%20extensible%20statically%20generated%20blog.&demo-url=https%3A%2F%2Fbun-blog.vercel.app%2F)
 
 [ 🔨 STILL UNDER CONSTRUCTION ]
+
+A simple and extendable static site generator built with [Bun](https://bun.sh/).
 
 Similar to the awesome [Bear Blog](https://bearblog.dev/), but as a static site
 generator that you own instead of a service.
@@ -10,7 +12,7 @@ generator that you own instead of a service.
 ## Features
 
 - Perfect page speed scores out of the box
-- Deploy your own blog to Vercel in < 1 minute
+- Deploy your own blog to Vercel in seconds
   - Or deploy to any CDN that accepts static files
 - Super tiny, optimized pages that look great on all devices (inspired by
   [Bear Blog](https://bearblog.dev/))
