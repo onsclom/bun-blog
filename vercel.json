@@ -1,3 +1,3 @@
 {
-  "buildCommand": "bun run index.ts"
+  "buildCommand": "bun gen"
 }
